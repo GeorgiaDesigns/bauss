@@ -1,0 +1,58 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: 'mount-hills';
+  src: url(./fonts/mount_hills/Mount\ Hills.otf);
+}
+
+@font-face {
+  font-family: 'sweet-purple';
+  src: url(./fonts/sweet_purple/sweet\ purple.ttf);
+}
+
+
+:root {
+  /* Set neon color */
+  --shadow-light: #c8d1c2;
+  --shadow-dark: #aeb8a7;
+}
+
+body {
+  background-color: #bdc8b6fd;
+  font-family:'Chonburi', 'Cormorant', 'Bebas Neue', sans-serif;
+/*   overflow-y:hidden; */
+  /* ove rflow-x:hidden; */
+  box-sizing: border-box;
+}
+      
+
+.container-product:nth-child(odd){
+  margin-left: 15%;
+  margin-right: auto;
+  display: block;   
+  width: 30vw;
+  height: 43vw;
+  position:relative;
+}
+.container-product:nth-child(even){
+  margin-left: auto;
+  margin-right: 15%;
+  display: block;   
+  width: 30vw;
+  height: 43vw;
+  position:relative;
+
+}
